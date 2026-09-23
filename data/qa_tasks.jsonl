@@ -1,0 +1,12 @@
+{"task_id": "task_01", "input": "What is the capital of France?", "reference": "Paris", "category": "factual"}
+{"task_id": "task_02", "input": "Which HTTP method is used to retrieve a resource and is idempotent?", "reference": "GET", "category": "factual"}
+{"task_id": "task_03", "input": "In one sentence, why do engineering teams maintain automated regression suites?", "reference": "To catch unintended behavior changes quickly before they reach production.", "category": "summary"}
+{"task_id": "task_04", "input": "Classify the sentiment as positive, negative, or neutral: 'The app crashes every time I open the settings page.'", "reference": "negative", "category": "classification"}
+{"task_id": "task_05", "input": "In the role title SDET, what does the 'S' stand for?", "reference": "Software", "category": "factual"}
+{"task_id": "task_06", "input": "Name one advantage of contract testing between microservices.", "reference": "It catches breaking API changes early without deploying the full system.", "category": "summary"}
+{"task_id": "task_07", "input": "What is the default port for HTTPS?", "reference": "443", "category": "factual"}
+{"task_id": "task_08", "input": "True or false: flaky tests should be quarantined and investigated, not silently ignored.", "reference": "True", "category": "classification"}
+{"task_id": "task_09", "input": "List two common causes of flaky UI tests.", "reference": "Timing issues and shared test state.", "category": "summary"}
+{"task_id": "task_10", "input": "In software engineering, what does 'CI' stand for?", "reference": "Continuous Integration", "category": "factual"}
+{"task_id": "task_11", "input": "What pytest flag runs only tests marked 'smoke'?", "reference": "pytest -m smoke", "category": "factual"}
+{"task_id": "task_12", "input": "In one sentence, what is the purpose of a test plan?", "reference": "To define the scope, approach, resources, and schedule for testing.", "category": "summary"}
