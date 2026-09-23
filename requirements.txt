@@ -1,0 +1,10 @@
+# --- required ---
+# pytest runs the suite (tests/ + the mock-mode smoke test in CI).
+pytest>=8.0
+
+# --- optional: live LangSmith backend only ---
+# The offline path (EvalStore, evaluators, full pipeline, CI) needs NOTHING
+# beyond stdlib + pytest. Install langsmith ONLY if you want adapter.py to
+# point at real LangSmith (it is imported lazily, only when
+# LANGSMITH_API_KEY is set). Verified to install cleanly (2026-09-22).
+# langsmith==0.14.0
